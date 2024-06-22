@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.nav{
+    padding-top: 20px;
+
+}
+.icon{
+    float: left;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14 px;
+}
