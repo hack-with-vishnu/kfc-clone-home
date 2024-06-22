@@ -8,7 +8,7 @@ body {
   .main {
     width: 100%;
     background-color: #fff;
-    border-bottom: 1px solid #ccc;
+    
   }
   
   .nav {
@@ -62,4 +62,71 @@ body {
   .img2 {
     height: 40px;
   }
+
+
+  .location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #000;
+    color: white;
+  }
+ 
+  .location img {
+    margin:  10px;
+ }
+ 
+ .location button{
+    margin: 10px;
+ }
+
+ .strip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.h{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-top: 24px;
+}
+
+.buttons {
+    
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 200px;
+    margin-top: 20px;
+    padding: 2px;
+    width: 100%;
+}
+.buttons button {
+     
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 200px; 
+    cursor: pointer;
+ }
+    
+.buttons .red {
+    background-color: red; 
+    color: white; }
+
+.buttons .grey {
   
+    color: black; 
+}
+.carosal{
+    width: 100%;
+    display: block;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+}
