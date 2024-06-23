@@ -79,6 +79,10 @@ body {
  
  .location button{
     margin: 10px;
+    border-radius: 200px;
+    height: 30px;
+    background-color: #000 ;
+    color: white;
  }
 
  .strip {
@@ -124,9 +128,13 @@ body {
     color: black; 
 }
 .carosal{
-    width: 100%;
+    
     display: block;
-    vertical-align: middle;
+    margin-top: 30px;
     border-style: none;
     box-sizing: border-box;
+}
+.carosal img{
+  height: 450px;
+  
 }
