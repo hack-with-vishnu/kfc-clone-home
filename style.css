@@ -231,8 +231,11 @@ h1 {
 }
 
 .grid-cate-item h2 {
-  font-size: 18px;
+  font-size: 26px;
+  font-weight: 780;
   margin: 10px 0;
+  color: #e4002b;
+  height: 43px;
 }
 
 .grid-cate-item p {
@@ -241,22 +244,24 @@ h1 {
 }
 
 .grid-cate-item a {
-  color: #007bff;
-  text-decoration: none;
+  color: #494949;
+  
   font-size: 14px;
 }
 
 .grid-cate-item button {
-  background-color: #d9534f;
-  color: #fff;
-  border: none;
+  background-color: transparent;
+  color: #202124;
+  border:solid 2px black ;
+  border-radius: 200px;
   padding: 10px 20px;
   font-size: 14px;
-  border-radius: 4px;
   cursor: pointer;
   margin-top: 10px;
+  
 }
 
 .grid-cate-item button:hover {
-  background-color: #c9302c;
+  background-color: black;
+  color: white;
 }
