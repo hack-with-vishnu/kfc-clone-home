@@ -265,3 +265,92 @@ h1 {
   background-color: black;
   color: white;
 }
+
+
+
+
+.footer {
+  
+  background-color: #1e1e1e;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-logo img {
+  width: 60px; 
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column a {
+  color: #e3e3e3;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-column a:hover {
+  color: white;
+}
+
+.find-column a {
+  display: flex;
+  align-items: center;
+}
+
+.find {
+  width: 10px; 
+  margin-right: 5px;
+}
+
+.app-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-icon {
+  width: 120px; 
+  margin: 5px 0;
+}
+
+.footer-end {
+  color: white;           
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  
+}
+
+
+.footer-end-img {
+  margin-top: 10px;
+  padding-left: 90%;
+  
+}
+
+.footer-end-img img {
+  margin: 0 1px;
+  width: 30px;
+  height: 30px;
+}
