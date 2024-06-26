@@ -1,13 +1,15 @@
-body {
+* {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
   
   .main {
-    width: 100%;
+    
     background-color: #fff;
+    width: 100%;
     
   }
   
@@ -19,11 +21,12 @@ body {
     padding-top: 30px;
     background-color: white;
     
+    
   }
   
   .left-section {
     display: flex;
-    align-items: center;
+  
   }
   
   .Logo {
@@ -31,10 +34,7 @@ body {
     padding-left: 130px;
   }
   
-  .menu {
-    display: flex;
-    margin-left: 20px;
-  }
+  
   
   .menu a {
     margin: 0 15px;
@@ -49,11 +49,12 @@ body {
   }
   
   .user a {
-    margin: 0 10px;
+    margin:5px;
     text-decoration: none;
-    color: #000;
-    display: flex;
-    align-items: center;
+    color: black;
+    
+    
+    
   }
   
   .img1 {
@@ -85,6 +86,7 @@ body {
     height: 30px;
     background-color: #000 ;
     color: white;
+    cursor: pointer;
  }
 
  .strip {
@@ -93,7 +95,7 @@ body {
     align-items: center;
  }
 .h{
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 15px;
     text-align: center;
@@ -105,7 +107,7 @@ body {
 
 .buttons {
     
-    display: inline-flex;
+    display: flex;
     justify-content: center; 
     align-items: center; 
     border-radius: 200px;
@@ -118,7 +120,7 @@ body {
     padding: 10px 20px;
     border: none; 
     border-radius: 200px; 
-    cursor: pointer;
+    cursor: pointer
  }
     
 .buttons .red {
@@ -134,10 +136,11 @@ body {
     display: block;
     margin-top: 30px;
     border-style: none;
-    box-sizing: border-box;
+    
 }
 .carosal img{
-  height: 450px;
+  height:418px ;
+  
   
   
 }
@@ -216,7 +219,7 @@ body {
 .grid-cate-mid {
   display: flex;
   justify-content: center;
-  gap: 20px; 
+  
 }
 
 .grid-cate-item {
